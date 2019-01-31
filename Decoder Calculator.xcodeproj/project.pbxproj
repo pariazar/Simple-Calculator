@@ -14,6 +14,8 @@
 		1BDA68C822034D710029D4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA68C622034D710029D4CE /* LaunchScreen.storyboard */; };
 		1BDA68D322034D710029D4CE /* Decoder_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA68D222034D710029D4CE /* Decoder_CalculatorTests.swift */; };
 		1BDA68DE22034D710029D4CE /* Decoder_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA68DD22034D710029D4CE /* Decoder_CalculatorUITests.swift */; };
+		1BDA68EE22035B4C0029D4CE /* digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA68ED22035B4C0029D4CE /* digital.ttf */; };
+		1BDA68F02203A7770029D4CE /* UDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA68EF2203A7770029D4CE /* UDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1BDA68D922034D710029D4CE /* Decoder CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decoder CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA68DD22034D710029D4CE /* Decoder_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder_CalculatorUITests.swift; sourceTree = "<group>"; };
 		1BDA68DF22034D710029D4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDA68ED22035B4C0029D4CE /* digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = digital.ttf; sourceTree = "<group>"; };
+		1BDA68EF2203A7770029D4CE /* UDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1BDA68C422034D710029D4CE /* Assets.xcassets */,
 				1BDA68C622034D710029D4CE /* LaunchScreen.storyboard */,
 				1BDA68C922034D710029D4CE /* Info.plist */,
+				1BDA68ED22035B4C0029D4CE /* digital.ttf */,
+				1BDA68EF2203A7770029D4CE /* UDevice.swift */,
 			);
 			path = "Decoder Calculator";
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BDA68C822034D710029D4CE /* LaunchScreen.storyboard in Resources */,
+				1BDA68EE22035B4C0029D4CE /* digital.ttf in Resources */,
 				1BDA68C522034D710029D4CE /* Assets.xcassets in Resources */,
 				1BDA68C322034D710029D4CE /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				1BDA68C022034D710029D4CE /* ViewController.swift in Sources */,
 				1BDA68BE22034D710029D4CE /* AppDelegate.swift in Sources */,
+				1BDA68F02203A7770029D4CE /* UDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
